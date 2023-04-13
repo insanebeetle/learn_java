@@ -1,13 +1,14 @@
-package chap_06.coffee;
+package chap_06.Coffee;
 
-public class CoffeebyNumber {
+public class CoffeeByNumber {
     public int waitingNumber;
 
-    public CoffeebyNumber(int waitingNumber) {
+    public CoffeeByNumber(int waitingNumber) {
         this.waitingNumber = waitingNumber;
     }
 
     public void ready(){
-        System.out.println("커피 준비 완료 " + waitingNumber);
+        System.out.println("커피준비완료 : " +waitingNumber);
+
     }
 }
